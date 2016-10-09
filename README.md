@@ -1,3 +1,4 @@
+<!-- 
 # Angular2-Seed Materialized [![Build Status](https://travis-ci.org/DeviantJS/angular2-seed-material2.svg?branch=master)](https://travis-ci.org/DeviantJS/angular2-seed-material2)
 > Current Material Version - 2.0.0-alpha.9-3
 
@@ -80,7 +81,7 @@ _Does not rely on any global dependencies._
 - [Tools documentation](#tools-documentation)
 - [How to extend?](#how-to-extend)
 - [Running tests](#running-tests)
-<!--- [Progressive Web Apps](#progressive-web-apps) -->
+** [Progressive Web Apps](#progressive-web-apps) 
 - [Contributing](#contributing)
 - [Advanced Seed Option](#advanced-seed-option)
 - [Examples](#examples)
@@ -163,7 +164,7 @@ npm run e2e.live
 ```
 You can learn more about [Protractor Interactive Mode here](https://github.com/angular/protractor/blob/master/docs/debugging.md#testing-out-protractor-interactively)
 
-<!-- # Progressive Web Apps
+ # Progressive Web Apps
 
 `angular2-seed` supports progressive web apps with [angular/mobile-toolkit](https://github.com/angular/mobile-toolkit).
 
@@ -182,7 +183,7 @@ In order to generate the manifest file run:
 npm run generate.manifest -- --env ENV
 ```
 
-Then, the commented snippet in `main.ts` must be uncommented to register the worker script as a service worker. -->
+Then, the commented snippet in `main.ts` must be uncommented to register the worker script as a service worker. 
 
 # Contributing
 
@@ -525,3 +526,4 @@ You can follow the [Angular 2 change log here](https://github.com/angular/angula
 # License
 
 MIT
+-->
