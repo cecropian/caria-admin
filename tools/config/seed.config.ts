@@ -344,7 +344,7 @@ export class SeedConfig {
       '@angular/http': 'node_modules/@angular/http/bundles/http.umd.js',
       '@angular/platform-browser': 'node_modules/@angular/platform-browser/bundles/platform-browser.umd.js',
       '@angular/platform-browser-dynamic': 'node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js',
-      '@angular/router': 'node_modules/@angular/router/bundles/router.umd.js',
+//      '@angular/router': 'node_modules/@angular/router/bundles/router.umd.js',
       '@angular/material': 'node_modules/@angular/material/material.umd.js',
 
       '@angular/common/testing': 'node_modules/@angular/common/bundles/common-testing.umd.js',
@@ -355,7 +355,7 @@ export class SeedConfig {
         'node_modules/@angular/platform-browser/bundles/platform-browser-testing.umd.js',
       '@angular/platform-browser-dynamic/testing':
         'node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic-testing.umd.js',
-      '@angular/router/testing': 'node_modules/@angular/router/bundles/router-testing.umd.js',
+  //    '@angular/router/testing': 'node_modules/@angular/router/bundles/router-testing.umd.js',
 
       'app/*': '/app/*',
       // For test config
@@ -421,10 +421,10 @@ export class SeedConfig {
         main: 'index.js',
         defaultExtension: 'js'
       },
-      '@angular/router': {
-        main: 'index.js',
-        defaultExtension: 'js'
-      },
+//      '@angular/router': {
+//        main: 'index.js',
+//        defaultExtension: 'js'
+//      },
       '@angular/material': {
         format: 'cjs',
         main: 'material.umd.js',

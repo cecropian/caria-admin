@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { NameListService } from '../shared/index';
+import { ISetting } from '../shared/services/setting';
+import {SettingsService} from '../shared/services/settings.service';
 
 /**
  * This class represents the lazy loaded HomeComponent.
@@ -16,25 +17,57 @@ export class HomeComponent implements OnInit {
   newName: string = '';
   errorMessage: string;
   names: any[] = [];
+  nopayOn: boolean = true;
+  robodocOn: boolean = false;
+  ePrescribeOn: boolean = false;
+  couponsOn: boolean = false;
+  nopaySlider = {checked: true};
+  robodocSlider = {checked: true};
+  ePrescribeSlider = {checked: true};
+  couponsSlider = {checked: true};
+  settings: ISetting[];
+  pageTitle: string = 'Layout Text Settings';
 
+
+  
   /**
    * Creates an instance of the HomeComponent with the injected
    * NameListService.
    *
    * @param {NameListService} nameListService - The injected NameListService.
    */
-  constructor(public nameListService: NameListService) {}
+  constructor(private _settingsService: SettingsService) {}
 
   /**
    * Get the names OnInit
    */
   ngOnInit() {
-    this.getNames();
+    // this.getNames();
+    this.nopaySlider.checked = this.nopayOn;
+    this.robodocSlider.checked = this.robodocOn;
+    this.ePrescribeSlider.checked = this.ePrescribeOn;
+    this.couponsSlider.checked = this.couponsOn;
+    this._settingsService.getSettingsByGroup('layout_text')
+        .subscribe(
+          settings => this.settings = settings,
+          error =>  this.errorMessage = <any>error);
   }
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   /**
    * Handle the nameListService observable
-   */
+   
   getNames() {
     this.nameListService.get()
       .subscribe(
@@ -46,12 +79,13 @@ export class HomeComponent implements OnInit {
   /**
    * Pushes a new name onto the names array
    * @return {boolean} false to prevent default form submit behavior to refresh the page.
-   */
+   
   addName(): boolean {
     // TODO: implement nameListService.post
     this.names.push(this.newName);
     this.newName = '';
     return false;
   }
+  */
 
 }

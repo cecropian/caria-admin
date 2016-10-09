@@ -1,21 +1,181 @@
-<div class="home-card-container">
-  <md-card>
-    <md-card-title>Howdy! Here's a list of awesome computer scientists.</md-card-title>
-    <md-card-content>
-      <p> Do you know any others? Add to the list yourself.
-      </p>
-      <form (submit)="addName()" class="home-form">
-        <div>
-          <md-input [(ngModel)]="newName" name="newName" class="home-input" placeholder="Awesome Computer Scientist" ngDefaultControl></md-input>
-          <button md-raised-button color="accent" type="submit" class="home-button">ADD</button>
+<md-sidenav-layout style="height:875px;">
+  <md-sidenav mode="side" #start (open)="mybutton.focus()" opened>
+    <ul class="sidenav-links">
+      <li class="sidenav-section no-border nav-title">&nbsp;</li>
+      <li class="sidenav-section-divider">
+        <h3>Basic Settings</h3>
+      </li>
+      <li class="sidenav-section">
+        <a href="#" title="" class="nav-title is-selected"><i class="fa fa-key"></i><span>Major Features</span></a>
+      </li>
+      <li class="sidenav-section">
+        <a href="#" title="" class="nav-title "><i class="fa fa-university"></i><span>Company Info</span></a>
+      </li>
+      <li class="sidenav-section no-border">
+        <a href="#" title="" class="nav-title "><i class="fa fa-pencil"></i><span>Layout Text</span></a>
+      </li>
+      <li class="sidenav-section-divider">
+        <h3>Detailed Settings</h3>
+      </li>
+      <li class="sidenav-section">
+        <a href="#" title="" class="nav-title"><i class="fa fa-key"></i><span>Auth Service</span></a>
+      </li>
+      <li class="sidenav-section">
+        <a href="#" title="" class="nav-title"><i class="material-icons" style="font-size:20px;">color_lens</i><span style="margin-top:50px;">CSS Styles</span></a>
+      </li>
+      <li class="sidenav-section">
+        <a href="#" title="" class="nav-title"><i class="material-icons" style="font-size:20px;">local_pharmacy</i><span>Dosespot Settings</span></a>
+      </li>
+      <li class="sidenav-section">
+        <a href="#" title="" class="nav-title"><i class="fa fa-credit-card"></i><span>Payments Settings</span></a>
+      </li>
+      <li class="sidenav-section">
+        <a href="#" title="" class="nav-title"><i class="fa fa-file-text"></i><span>Reports Config</span></a>
+      </li>
+      <li class="sidenav-section-divider">
+        <h3>Status and Schedules</h3>
+      </li>
+      <li class="sidenav-section">
+        <a href="#" title="" class="nav-title "><i class="fa fa-smile-o"></i><span>Current Clients</span></a>
+      </li>
+      <li class="sidenav-section">
+        <a href="#" title="" class="nav-title "><i class="fa fa-bullseye"></i><span>Prospective Clients</span></a>
+      </li>
+      <li class="sidenav-section">
+        <a href="#" title="" class="nav-title "><i class="fa fa-calendar"></i><span>Demo Schedule</span></a>
+      </li>
+    </ul>
+  </md-sidenav>
+
+  <div class="home-card-container">
+    <md-card>
+      <md-card-header>
+        <md-card-title style="font-size: 36px;"> Major features for {{site}}</md-card-title>
+        <div md-card-avatar [style.background]="'lightgreen'" style="height:84px;width:84px;"> 
+        <md-grid-list cols="2" rowHeight="fit" style="height:56px;width:56px;position:relative;left:15px;top:15px;">
+          <md-grid-tile><i class="fa fa-credit-card" style="font-size:24px;"></i></md-grid-tile>
+          <md-grid-tile><i class="fa fa-user-md" style="font-size:24px;"></i></md-grid-tile>
+          <md-grid-tile><i class="material-icons md-24">local_pharmacy</i></md-grid-tile>
+          <md-grid-tile><i class="fa fa-barcode" style="font-size:24px;"></i></md-grid-tile>
+        </md-grid-list>
         </div>
-      </form>
-      <md-list class="home-list">
-        <md-list-item *ngFor="let name of names">
-          <h3 md-line>{{name}}</h3>
-          <p md-line class="demo-secondary-text">secondary text</p>
-        </md-list-item>
-      </md-list>
-    </md-card-content>
-  </md-card>
-</div>
+        
+      </md-card-header>
+
+      <md-card-content>
+        <form materialize (submit)="addName()" class="home-form col s12">
+          <br/>
+          <br/>
+          <md-input placeholder="HCA Fee" align="end" maxlength="8">
+            <span md-prefix>$&nbsp;</span>
+          </md-input>
+          <div class="row">
+            <div class="col-md-3" style="">
+              <div class="row">
+                <md-slide-toggle [(ngModel)]="nopaySlider.checked" name="nopay">No Pay System</md-slide-toggle>
+              </div>
+              <div class="row">
+                <md-checkbox *ngIf="!nopaySlider.checked" [(ngModel)]="ccLiveSlider" color="warn" name="nopay">Live System</md-checkbox>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="row">
+                <md-slide-toggle [(ngModel)]="robodocSlider.checked" name="robodoc">Robodoc</md-slide-toggle>
+              </div>
+              <div class="row">
+                <md-input *ngIf="robodocSlider.checked" placeholder="Robodoc's Name" dividerColor="accent"></md-input>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="row">
+                <md-slide-toggle [(ngModel)]="ePrescribeSlider.checked" name="eprescribe">
+                  <span>e-Prescribe</span>
+                </md-slide-toggle>
+              </div>
+              <span *ngIf="ePrescribeSlider.checked">
+                <div class="row">
+                  <md-input placeholder="Clinic Id" dividerColor="accent"></md-input>
+                </div>
+                <div class="row">
+                  <md-input placeholder="Clinic Key" dividerColor="accent"></md-input>
+                </div>
+                <div class="row">
+                  <md-checkbox [(ngModel)]="ePrescribeDemo" color="warn" name="eprescribdemo">Demo Clinic</md-checkbox>
+                </div>
+              </span>
+            </div>
+            <div class="col-md-3">
+              <div class="row">
+                <md-slide-toggle [(ngModel)]="couponsSlider.checked" name="coupons">Coupons</md-slide-toggle>
+              </div>
+              <div class="row">
+                <md-input *ngIf="couponsSlider.checked" placeholder="How many coupons?" dividerColor="accent"></md-input>
+              </div>
+            </div>
+          </div>
+        </form>
+      </md-card-content>
+      <md-card-actions style="padding:10px;border-top:1px solid  rgba(100,100,100,.07);">
+        <button md-ripple md-raised-button color="accent">SAVE</button>
+      </md-card-actions>
+    </md-card>
+  </div>
+
+  <div class="home-card-container">
+    <md-card>
+      <md-card-header>
+        <md-card-title style="font-size: 36px;">{{pageTitle}}</md-card-title>
+        <div md-card-avatar>
+          <i class="fa fa-pencil"></i>
+        </div>
+      </md-card-header>
+
+      <md-card-content>
+        <form materialize (submit)="saveLayoutTextSettings()" class="home-form form-horizontal col s12">
+          <div *ngFor="let setting of settings" class="form-group row">
+              <md-input [disabled]="setting.readOnly" style="width: 50%" [value]="setting.settingValue" dividerColor="accent" [id]="setting.settingId" [placeholder]="setting.settingTitle"></md-input>
+          </div>
+        </form>
+      </md-card-content>
+      <md-card-actions style="padding:10px;border-top:1px solid  rgba(100,100,100,.07);">
+        <button md-ripple md-raised-button color="accent">SAVE SETTINGS</button>
+      </md-card-actions>
+    </md-card>
+  </div>
+
+
+
+</md-sidenav-layout>
+<!-- <button md-ripple md-raised-button md-tooltip="Ripped Razed Btn" color="accent">HELP!</button>
+robodoc/cc/coupons/e-prescribe  (credit_card/face/add_box/colorize/healing/local_activity/**local_pharmacy/local_offer) 
+
+assessment (bar graph)
+build (wrench)
+dashboard
+dns
+extension (puzzle peice)
+settings_power
+view_list
+view_quilt
+storage
+*widgets
+developer_board
+color_lens
+
+font-awesome:
+barcode
+cogs
+fa fa-dashboard
+fa fa-key
+fa fa-university
+fa fa-image
+fa fa-paint-brush
+fa fa-flask
+fa fa-pencil
+fa fa-credit-card
+fa fa-file-text (reports)
+fa fa-medkit
+fa fa-smile-o
+fa fa-bullseye
+fa fa-calendar
+-->

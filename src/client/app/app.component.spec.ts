@@ -6,12 +6,8 @@ import { APP_BASE_HREF } from '@angular/common';
 import {
   async
 } from '@angular/core/testing';
-import {
-  Route
-} from '@angular/router';
-import {
-  RouterTestingModule
-} from '@angular/router/testing';
+//import {  Route } from '@angular/router';
+//import {  RouterTestingModule} from '@angular/router/testing';
 import { MaterialModule } from '@angular/material';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -23,13 +19,10 @@ export function main() {
 
   describe('App component', () => {
 
-    let config: Route[] = [
-      { path: '', component: HomeComponent },
-      { path: 'about', component: AboutComponent }
-    ];
+    let config: any[] = [];
     beforeEach(() => {
       TestBed.configureTestingModule({
-        imports: [FormsModule, RouterTestingModule.withRoutes(config), MaterialModule.forRoot()],
+        imports: [FormsModule, MaterialModule.forRoot()],
         declarations: [TestComponent, ToolbarComponent,
           NavbarComponent, AppComponent,
           HomeComponent, AboutComponent],

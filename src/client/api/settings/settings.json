@@ -1,0 +1,930 @@
+[
+  {
+    "settingId": 3228,
+    "settingGroup": "auth_service",
+    "settingTitle": "Access Key",
+    "settingKey": "access_key",
+    "settingValue": "87e263a0-7dcc-11e6-a22f-f1acec816811",
+    "readOnly": true
+  },
+  {
+    "settingId": 3075,
+    "settingGroup": "auth_service",
+    "settingTitle": "Activation Code",
+    "settingKey": "activation_code",
+    "settingValue": "rummy-unable-pathway-pour-castled-album-earring-prolate-jiffy-wisteria",
+    "readOnly": false
+  },
+  {
+    "settingId": 3229,
+    "settingGroup": "auth_service",
+    "settingTitle": "Secret Key",
+    "settingKey": "secret_key",
+    "settingValue": "12a38012-8ea8-488c-a389-1f028651a463",
+    "readOnly": true
+  },
+  {
+    "settingId": 3077,
+    "settingGroup": "auth_service",
+    "settingTitle": "Storefront Email",
+    "settingKey": "storefront_email",
+    "settingValue": "eric@robo.caria.us",
+    "readOnly": false
+  },
+  {
+    "settingId": 3076,
+    "settingGroup": "auth_service",
+    "settingTitle": "Storefront Name",
+    "settingKey": "storefront_name",
+    "settingValue": "rr4.local.caria.us",
+    "readOnly": false
+  },
+  {
+    "settingId": 3078,
+    "settingGroup": "auth_service",
+    "settingTitle": "Storefront Phone",
+    "settingKey": "storefront_phone",
+    "settingValue": "6199950680",
+    "readOnly": false
+  },
+  {
+    "settingId": 3156,
+    "settingGroup": "company_info",
+    "settingTitle": "City",
+    "settingKey": "company_address_city",
+    "settingValue": "Indianapolis",
+    "readOnly": false
+  },
+  {
+    "settingId": 3159,
+    "settingGroup": "company_info",
+    "settingTitle": "Country",
+    "settingKey": "company_address_country",
+    "settingValue": "United States",
+    "readOnly": false
+  },
+  {
+    "settingId": 3154,
+    "settingGroup": "company_info",
+    "settingTitle": "Address line 1",
+    "settingKey": "company_address_line1",
+    "settingValue": "8465 Keystone Crossing Way",
+    "readOnly": false
+  },
+  {
+    "settingId": 3155,
+    "settingGroup": "company_info",
+    "settingTitle": "Address line 2",
+    "settingKey": "company_address_line2",
+    "settingValue": "Suite 260",
+    "readOnly": false
+  },
+  {
+    "settingId": 3158,
+    "settingGroup": "company_info",
+    "settingTitle": "ZIP",
+    "settingKey": "company_address_postal_code",
+    "settingValue": "46033",
+    "readOnly": false
+  },
+  {
+    "settingId": 3157,
+    "settingGroup": "company_info",
+    "settingTitle": "State\/Province\/Region",
+    "settingKey": "company_address_state",
+    "settingValue": "Indiana",
+    "readOnly": false
+  },
+  {
+    "settingId": 3166,
+    "settingGroup": "company_info",
+    "settingTitle": "company_days_end",
+    "settingKey": "company_days_end",
+    "settingValue": "Saturday",
+    "readOnly": false
+  },
+  {
+    "settingId": 3165,
+    "settingGroup": "company_info",
+    "settingTitle": "company_days_start",
+    "settingKey": "company_days_start",
+    "settingValue": "Monday",
+    "readOnly": false
+  },
+  {
+    "settingId": 3162,
+    "settingGroup": "company_info",
+    "settingTitle": "Email",
+    "settingKey": "company_email",
+    "settingValue": "info@healthcareanywhere.com",
+    "readOnly": false
+  },
+  {
+    "settingId": 3164,
+    "settingGroup": "company_info",
+    "settingTitle": "company_hours_end",
+    "settingKey": "company_hours_end",
+    "settingValue": "10:00 PM",
+    "readOnly": false
+  },
+  {
+    "settingId": 3163,
+    "settingGroup": "company_info",
+    "settingTitle": "company_hours_start",
+    "settingKey": "company_hours_start",
+    "settingValue": "8:00 AM",
+    "readOnly": false
+  },
+  {
+    "settingId": 3153,
+    "settingGroup": "company_info",
+    "settingTitle": "Company Name",
+    "settingKey": "company_name",
+    "settingValue": "Healthcare Anywhere LLC",
+    "readOnly": false
+  },
+  {
+    "settingId": 3161,
+    "settingGroup": "company_info",
+    "settingTitle": "Local Phone Number",
+    "settingKey": "company_numbers_phone_local",
+    "settingValue": "+1 (317) 391-0381",
+    "readOnly": false
+  },
+  {
+    "settingId": 3160,
+    "settingGroup": "company_info",
+    "settingTitle": "Tollfree Phone Number",
+    "settingKey": "company_numbers_phone_tollfree",
+    "settingValue": "+1 (844) 683-9122",
+    "readOnly": false
+  },
+  {
+    "settingId": 2919,
+    "settingGroup": "config",
+    "settingTitle": "",
+    "settingKey": "Array",
+    "settingValue": "8e4d2e63896f736712c5a92a6e39fb357b1d284a",
+    "readOnly": false
+  },
+  {
+    "settingId": 2917,
+    "settingGroup": "config",
+    "settingTitle": "",
+    "settingKey": "action",
+    "settingValue": "settingform",
+    "readOnly": false
+  },
+  {
+    "settingId": 2922,
+    "settingGroup": "config",
+    "settingTitle": "",
+    "settingKey": "config_language_code",
+    "settingValue": "1",
+    "readOnly": false
+  },
+  {
+    "settingId": 2924,
+    "settingGroup": "config",
+    "settingTitle": "",
+    "settingKey": "config_session_timeout",
+    "settingValue": "30",
+    "readOnly": false
+  },
+  {
+    "settingId": 2923,
+    "settingGroup": "config",
+    "settingTitle": "",
+    "settingKey": "config_video_code",
+    "settingValue": "1",
+    "readOnly": false
+  },
+  {
+    "settingId": 2916,
+    "settingGroup": "config",
+    "settingTitle": "",
+    "settingKey": "controller",
+    "settingValue": "index",
+    "readOnly": false
+  },
+  {
+    "settingId": 2925,
+    "settingGroup": "config",
+    "settingTitle": "",
+    "settingKey": "csrf",
+    "settingValue": "8e4d2e63896f736712c5a92a6e39fb357b1d284a",
+    "readOnly": false
+  },
+  {
+    "settingId": 3018,
+    "settingGroup": "config",
+    "settingTitle": "Slot Duration",
+    "settingKey": "duration",
+    "settingValue": "15min",
+    "readOnly": false
+  },
+  {
+    "settingId": 3021,
+    "settingGroup": "config",
+    "settingTitle": "Visit Fee Range",
+    "settingKey": "managefee",
+    "settingValue": "1.00-5.00",
+    "readOnly": false
+  },
+  {
+    "settingId": 2918,
+    "settingGroup": "config",
+    "settingTitle": "",
+    "settingKey": "type",
+    "settingValue": "config",
+    "readOnly": false
+  },
+  {
+    "settingId": 3020,
+    "settingGroup": "content",
+    "settingTitle": "Consent Form",
+    "settingKey": "consent",
+    "settingValue": "Only You have been offered the option of participating in a clinical consultation, using telemedicine, instead of traveling to the consulting physician\"s location. If you decide to use telemedicine to contact a consulting physician, you first need to read and understand the information below. By accepting this Informed Consent Form, you also agree and acknowledge that the consulting physician is providing you care and consultation in the State of Indiana, and that the laws and jurisdiction of the State of Indiana, including, but not limited to the provisions of l.C &amp; 34-18 et seq., apply to this telemedicine consultation.<br><br> <strong>DEFINITION<\/strong><br> Telemedicine means the practice of health care delivery, diagnosis, consultation, treatment, transfer of medical data, or education using interactive audio, video or data communications. These communications can use the Internet, local phone lines or sometimes wireless connections.<br><br> <strong>PROCEDURE<\/strong><br> If you choose to participate in a telemedicine session, you, and perhaps your local physician, will schedule a time to meet in a private exam room with telemedicine equipment. You will communicate directly with a clinical consulting physician using either a video camera, speakerphone, smart device and other computer equipment. You will be able to hear and see the consulting physician and your voice and image will be seen and heard by the consulting physician.<br><br> The consulting physician is providing this independent consultation as part of his office practice and is an independent contractor in providing this type of patient care. You are hereby accepting the General Consent form and the Notice of Privacy Practices of the consulting physician\"s practice prior to your telemedicine consultation. &nbsp;Your doctor will have an audio reproduction of your telemedicine session for uses such as reference, transcription and for your personal medical records<br><br> <strong>POSSIBLE RISKS<\/strong><br> As with any medical procedure, there are potential risks associated with the use of telemedicine. These risks include, but may not be limited to the following:<br><br> <ul> <li>A telemedicine consultation may not be equal to a face-to-face visit since you will not be in the same room as the consulting physician.<\/li><li>Information transmitted to the consulting physician may be insufficient (e.g. poor resolution of images - resolution of images) to allow for appropriate medical decisions, and the consulting physician may ask to see you in person.<\/li><li>Delays in medical evaluation and treatment may occur due to deficiencies or failures of the equipment.<\/li> <li>Security measures may fail, causing a breach of privacy or confidentiality of your personal medical information.<\/li> <\/ul><br> <strong>ALTERNATIVES<\/strong><br> Instead of participating in a telemedicine consultation, you may seek a face-to-face examination with the consulting physician or choose to see a different healthcare provider. Your consent is required to participate in this telemedicine consultation.<br><br> <strong>CONFIDENTIALITY<\/strong><br> The Federal and State laws that protect privacy and confidentiality of medical information also apply to your information obtained using telemedicine. No Information obtained in the use of telemedicine that identifies you, including video or audio recordings, will be disclosed to any third party or to any researchers without your prior written consent. Reasonable and appropriate efforts have been made to eliminate any risk of a breach of privacy or confidentiality related to this telemedicine consultation.<br><br> By accepting this Informed Consent Form, you acknowledge that you have read the form, (or it has been read to you), and that you understand its contents. You acknowledge that you have had the opportunity to ask questions and they have been answered to your satisfaction,  and that you understand the risks and benefits of the telemedicine technology and consultation, and hereby consent to such examination, diagnostic testing, procedures and medical treatment.",
+    "readOnly": false
+  },
+  {
+    "settingId": 3135,
+    "settingGroup": "content",
+    "settingTitle": "Default Hero\/Background Image",
+    "settingKey": "default_hero_image",
+    "settingValue": "hca_hero.jpg",
+    "readOnly": false
+  },
+  {
+    "settingId": 3134,
+    "settingGroup": "content",
+    "settingTitle": "Default Logo",
+    "settingKey": "default_logo",
+    "settingValue": "hca_new_logo.jpg",
+    "readOnly": false
+  },
+  {
+    "settingId": 3019,
+    "settingGroup": "content",
+    "settingTitle": "Payment Terms and Conditions",
+    "settingKey": "financial",
+    "settingValue": "<b><u>Payment Terms and Conditions<\/u><\/b><br><br>Simply By choosing to pay in any of the payment methods recommended by Healthcare Anywhere, you will be able to complete your payment transaction by using your valid Credit\/Debit card or by providing your insurance details. Whenever you choose to pay for an appointment using your bank account, you are authorizing Healthcare Anywhere (or its agent\/s) to debit your bank account for the total amount for your booked appointment(including applicable taxes,fees). Your transaction must be payable in US.dollars. Healthcare Anywhere will maintain and reserve all rights related to payment protocols. HealthCare AnyWhere, in its sole discretion, may refuse this payment option service to anyone who books an appointment with HealthCare AnyWhere without prior notice for any reason at any time.<br><br><b><u>Cancellation and Refund Policy<\/u><\/b><br><br>HealthCare AnyWhere is pleased to process your cancellation and, if applicable a refund for the payment undertaken, but the following stipulations will be applicable:-<ul><li>Any individual who has booked an appointment with Healthcare Anywhere and who wants to cancel the appointment greater than <b><u>36 Hours<\/u><\/b> prior to a paid activity will be entitled to a full refund.<\/li><li>Any individual who cancels their appointment between <b><u>24<\/u><\/b> and <b><u>36 Hours<\/u><\/b> prior to a paid activity will be entitled to a refund provided he\/she will have to pay <b><u>15 dollars<\/u><\/b> as the processing fee.<\/li><li>Any individual who cancels their appointment less than 24 hours prior to a paid activity or who does not make an e-visit with the doctor to the activity without cancellation will not be entitled for a refund.<\/li><li>All the Transaction Errors during the payment transaction initiated by Healthcare AnyWhere(or its agent\/s) if failed needs to be informed to Healthcare Anywhere Customer Support.<\/li><\/ul>",
+    "readOnly": false
+  },
+  {
+    "settingId": 3133,
+    "settingGroup": "content",
+    "settingTitle": "Hero\/Background Image",
+    "settingKey": "hero_image",
+    "settingValue": "hca_hero.jpg",
+    "readOnly": false
+  },
+  {
+    "settingId": 3132,
+    "settingGroup": "content",
+    "settingTitle": "Logo",
+    "settingKey": "logo",
+    "settingValue": "hca_new_logo.jpg",
+    "readOnly": false
+  },
+  {
+    "settingId": 3080,
+    "settingGroup": "coupons_service",
+    "settingTitle": "Coupon Payment Code",
+    "settingKey": "coupon_code",
+    "settingValue": "CPON",
+    "readOnly": false
+  },
+  {
+    "settingId": 3079,
+    "settingGroup": "coupons_service",
+    "settingTitle": "Coupon Name",
+    "settingKey": "coupon_name",
+    "settingValue": "COUPON",
+    "readOnly": false
+  },
+  {
+    "settingId": 3086,
+    "settingGroup": "coupons_service",
+    "settingTitle": "Number of Coupons",
+    "settingKey": "coupons_enabled",
+    "settingValue": "7",
+    "readOnly": false
+  },
+  {
+    "settingId": 3210,
+    "settingGroup": "credit_card_payments",
+    "settingTitle": "Credit Card Mode",
+    "settingKey": "credit_card_mode",
+    "settingValue": "test",
+    "readOnly": false
+  },
+  {
+    "settingId": 3211,
+    "settingGroup": "credit_card_payments",
+    "settingTitle": "**LIVE** API Key",
+    "settingKey": "live_cc_api_key",
+    "settingValue": "yxZrBR4YSPQGoSRv78ztK93oN77rkZup",
+    "readOnly": false
+  },
+  {
+    "settingId": 3212,
+    "settingGroup": "credit_card_payments",
+    "settingTitle": "LIVE API Secret",
+    "settingKey": "live_cc_api_secret",
+    "settingValue": "389d0c94e1ffc7bc184602f68857c8c894fef94baf1604c1b7bd276e81c73e12",
+    "readOnly": false
+  },
+  {
+    "settingId": 3216,
+    "settingGroup": "credit_card_payments",
+    "settingTitle": "LIVE Base URL",
+    "settingKey": "live_cc_base_url",
+    "settingValue": "https:\/\/api.payeezy.com\/v1\/transactions",
+    "readOnly": false
+  },
+  {
+    "settingId": 3213,
+    "settingGroup": "credit_card_payments",
+    "settingTitle": "LIVE JS Key",
+    "settingKey": "live_cc_js_key",
+    "settingValue": "js-9780984c4f6bcd8ae616e3adec2315e39780984c4f6bcd8a",
+    "readOnly": false
+  },
+  {
+    "settingId": 3219,
+    "settingGroup": "credit_card_payments",
+    "settingTitle": "LIVE Merchant Reference",
+    "settingKey": "live_cc_merchant_ref",
+    "settingValue": "CARIA",
+    "readOnly": false
+  },
+  {
+    "settingId": 3215,
+    "settingGroup": "credit_card_payments",
+    "settingTitle": "LIVE Merchant Token",
+    "settingKey": "live_cc_merchant_token",
+    "settingValue": "fdoa-15ce236d924fada2dfd51adfec73b3a415ce236d924fada2",
+    "readOnly": false
+  },
+  {
+    "settingId": 3214,
+    "settingGroup": "credit_card_payments",
+    "settingTitle": "LIVE Transarmor Token",
+    "settingKey": "live_cc_ta_token",
+    "settingValue": "N04Z",
+    "readOnly": false
+  },
+  {
+    "settingId": 3217,
+    "settingGroup": "credit_card_payments",
+    "settingTitle": "LIVE Token URL",
+    "settingKey": "live_cc_token_url",
+    "settingValue": "https:\/\/api.payeezy.com\/v1\/securitytokens",
+    "readOnly": false
+  },
+  {
+    "settingId": 3203,
+    "settingGroup": "credit_card_payments",
+    "settingTitle": "TEST API Key",
+    "settingKey": "test_cc_api_key",
+    "settingValue": "l1YLHsWa91DW5iOztLPs63kWZ6KKzOF4",
+    "readOnly": false
+  },
+  {
+    "settingId": 3204,
+    "settingGroup": "credit_card_payments",
+    "settingTitle": "TEST API Secret",
+    "settingKey": "test_cc_api_secret",
+    "settingValue": "d8a58d27af6bd23bbaa5af6d7e923aa9925ad3ced3e89666b602900d59ab2705",
+    "readOnly": false
+  },
+  {
+    "settingId": 3208,
+    "settingGroup": "credit_card_payments",
+    "settingTitle": "TEST Base URL",
+    "settingKey": "test_cc_base_url",
+    "settingValue": "https:\/\/api-cert.payeezy.com\/v1\/transactions",
+    "readOnly": false
+  },
+  {
+    "settingId": 3205,
+    "settingGroup": "credit_card_payments",
+    "settingTitle": "TEST JS Key",
+    "settingKey": "test_cc_js_key",
+    "settingValue": "js-f261133113150d138a64e5ec26400e34f261133113150d13",
+    "readOnly": false
+  },
+  {
+    "settingId": 3218,
+    "settingGroup": "credit_card_payments",
+    "settingTitle": "TEST Merchant Reference",
+    "settingKey": "test_cc_merchant_ref",
+    "settingValue": "Acme-Sock",
+    "readOnly": false
+  },
+  {
+    "settingId": 3207,
+    "settingGroup": "credit_card_payments",
+    "settingTitle": "TEST Merchant Token",
+    "settingKey": "test_cc_merchant_token",
+    "settingValue": "fdoa-8a1f8fe680c1b6fdbae316eab58680a48a1f8fe680c1b6fd",
+    "readOnly": false
+  },
+  {
+    "settingId": 3206,
+    "settingGroup": "credit_card_payments",
+    "settingTitle": "TEST Transarmor Token",
+    "settingKey": "test_cc_ta_token",
+    "settingValue": "NOIW",
+    "readOnly": false
+  },
+  {
+    "settingId": 3209,
+    "settingGroup": "credit_card_payments",
+    "settingTitle": "TEST Token URL",
+    "settingKey": "test_cc_token_url",
+    "settingValue": "https:\/\/api-cert.payeezy.com\/v1\/securitytokens",
+    "readOnly": false
+  },
+  {
+    "settingId": 2515,
+    "settingGroup": "crontab",
+    "settingTitle": "",
+    "settingKey": "last_cron_time",
+    "settingValue": "18-11-2013 05:30:02",
+    "readOnly": false
+  },
+  {
+    "settingId": 20,
+    "settingGroup": "crontab",
+    "settingTitle": "",
+    "settingKey": "last_scheduled_time",
+    "settingValue": "02-12-2014 12:10:27",
+    "readOnly": false
+  },
+  {
+    "settingId": 19,
+    "settingGroup": "crontab",
+    "settingTitle": "",
+    "settingKey": "schedule_time",
+    "settingValue": "2",
+    "readOnly": false
+  },
+  {
+    "settingId": 3143,
+    "settingGroup": "default_styles",
+    "settingTitle": "Default Primary Active Button",
+    "settingKey": "default_button_active",
+    "settingValue": "background-color:#F28F15;color:#FFFFFF;font-family:'Open Sans', sans-serif;border-color:#F28F15;",
+    "readOnly": false
+  },
+  {
+    "settingId": 3142,
+    "settingGroup": "default_styles",
+    "settingTitle": "Default Primary Button (inactive)",
+    "settingKey": "default_button_class",
+    "settingValue": "background-color:#FFFFFF;color:#212121;",
+    "readOnly": false
+  },
+  {
+    "settingId": 3145,
+    "settingGroup": "default_styles",
+    "settingTitle": "Default Footer Styles",
+    "settingKey": "default_footer_class",
+    "settingValue": "background-color:#9E418F;color:#F1F1F1;font-family:'Open Sans', sans-serif;",
+    "readOnly": false
+  },
+  {
+    "settingId": 3144,
+    "settingGroup": "default_styles",
+    "settingTitle": "Default Hangbox Styles",
+    "settingKey": "default_hangbox_class",
+    "settingValue": "background-color:#9DC247;color:#212121;font-family:'Open Sans', sans-serif;",
+    "readOnly": false
+  },
+  {
+    "settingId": 3141,
+    "settingGroup": "default_styles",
+    "settingTitle": "Default Navigation Styles",
+    "settingKey": "default_nav_class",
+    "settingValue": "background-color:#54B9E5;",
+    "readOnly": false
+  },
+  {
+    "settingId": 3225,
+    "settingGroup": "default_styles",
+    "settingTitle": "Default Secondary Active Button",
+    "settingKey": "default_secondary_active",
+    "settingValue": "background:brown;color:yellow;font-family:'Open Sans', sans-serif;",
+    "readOnly": false
+  },
+  {
+    "settingId": 3224,
+    "settingGroup": "default_styles",
+    "settingTitle": "Default Secondary Button Hover Styles",
+    "settingKey": "default_secondary_hover",
+    "settingValue": "background:silver;color:green;",
+    "readOnly": false
+  },
+  {
+    "settingId": 3223,
+    "settingGroup": "default_styles",
+    "settingTitle": "Default Table Headers",
+    "settingKey": "default_table_headers",
+    "settingValue": "background:magenta;color:indigo;font-family:'Open Sans', sans-serif;",
+    "readOnly": false
+  },
+  {
+    "settingId": 3150,
+    "settingGroup": "eprescibe_service",
+    "settingTitle": "Clinic ID",
+    "settingKey": "clinic_id",
+    "settingValue": "547",
+    "readOnly": false
+  },
+  {
+    "settingId": 3151,
+    "settingGroup": "eprescibe_service",
+    "settingTitle": "Clinic Key",
+    "settingKey": "clinic_key",
+    "settingValue": "p7Th3K5FAdAYjeNF5EwMFnjCLRKKuAMG",
+    "readOnly": false
+  },
+  {
+    "settingId": 3149,
+    "settingGroup": "eprescibe_service",
+    "settingTitle": "Dosespot",
+    "settingKey": "dosespot",
+    "settingValue": "1",
+    "readOnly": false
+  },
+  {
+    "settingId": 3148,
+    "settingGroup": "eprescibe_service",
+    "settingTitle": "e-Prescibe Provider",
+    "settingKey": "eprescribe",
+    "settingValue": "dosespot",
+    "readOnly": false
+  },
+  {
+    "settingId": 3241,
+    "settingGroup": "layout_text",
+    "settingTitle": "Footer center header",
+    "settingKey": "footer_center_header",
+    "settingValue": "We are changing the world of healthcare one connection at a time",
+    "readOnly": false
+  },
+  {
+    "settingId": 3242,
+    "settingGroup": "layout_text",
+    "settingTitle": "Footer center line 1",
+    "settingKey": "footer_center_line_01",
+    "settingValue": "",
+    "readOnly": false
+  },
+  {
+    "settingId": 3243,
+    "settingGroup": "layout_text",
+    "settingTitle": "Footer center line 2",
+    "settingKey": "footer_center_line_02",
+    "settingValue": "",
+    "readOnly": false
+  },
+  {
+    "settingId": 3244,
+    "settingGroup": "layout_text",
+    "settingTitle": "Footer center line 3",
+    "settingKey": "footer_center_line_03",
+    "settingValue": "",
+    "readOnly": false
+  },
+  {
+    "settingId": 3230,
+    "settingGroup": "layout_text",
+    "settingTitle": "Footer left header",
+    "settingKey": "footer_left_header",
+    "settingValue": "+1 (844) 683-9122",
+    "readOnly": false
+  },
+  {
+    "settingId": 3231,
+    "settingGroup": "layout_text",
+    "settingTitle": "Footer left line 1",
+    "settingKey": "footer_left_line_01",
+    "settingValue": "8AM - 6PM, Monday - Saturday",
+    "readOnly": false
+  },
+  {
+    "settingId": 3232,
+    "settingGroup": "layout_text",
+    "settingTitle": "Footer left line 2",
+    "settingKey": "footer_left_line_02",
+    "settingValue": "",
+    "readOnly": false
+  },
+  {
+    "settingId": 3233,
+    "settingGroup": "layout_text",
+    "settingTitle": "Footer left line 3",
+    "settingKey": "footer_left_line_03",
+    "settingValue": "",
+    "readOnly": false
+  },
+  {
+    "settingId": 3234,
+    "settingGroup": "layout_text",
+    "settingTitle": "Footer left line 4",
+    "settingKey": "footer_left_line_04",
+    "settingValue": "",
+    "readOnly": false
+  },
+  {
+    "settingId": 3235,
+    "settingGroup": "layout_text",
+    "settingTitle": "Footer right header",
+    "settingKey": "footer_right_header",
+    "settingValue": "Healthcare Anywhere LLC",
+    "readOnly": false
+  },
+  {
+    "settingId": 3236,
+    "settingGroup": "layout_text",
+    "settingTitle": "Footer right line 1",
+    "settingKey": "footer_right_line_01",
+    "settingValue": "8465 Keystone Crossing Way, Suite 260",
+    "readOnly": false
+  },
+  {
+    "settingId": 3237,
+    "settingGroup": "layout_text",
+    "settingTitle": "Footer right line 2",
+    "settingKey": "footer_right_line_02",
+    "settingValue": "Indianapolis, Indiana 46033",
+    "readOnly": false
+  },
+  {
+    "settingId": 3238,
+    "settingGroup": "layout_text",
+    "settingTitle": "Footer right line 3",
+    "settingKey": "footer_right_line_03",
+    "settingValue": "",
+    "readOnly": false
+  },
+  {
+    "settingId": 3239,
+    "settingGroup": "layout_text",
+    "settingTitle": "Footer right line 4",
+    "settingKey": "footer_right_line_04",
+    "settingValue": "",
+    "readOnly": false
+  },
+  {
+    "settingId": 3240,
+    "settingGroup": "layout_text",
+    "settingTitle": "Footer right line 5",
+    "settingKey": "footer_right_line_05",
+    "settingValue": "",
+    "readOnly": false
+  },
+  {
+    "settingId": 3250,
+    "settingGroup": "layout_text",
+    "settingTitle": "Registration Button",
+    "settingKey": "register_text",
+    "settingValue": "Register for Telemedicine",
+    "readOnly": false
+  },
+  {
+    "settingId": 3248,
+    "settingGroup": "layout_text",
+    "settingTitle": "Signin Button",
+    "settingKey": "signin_text",
+    "settingValue": "Log in",
+    "readOnly": false
+  },
+  {
+    "settingId": 3249,
+    "settingGroup": "layout_text",
+    "settingTitle": "Signout Button",
+    "settingKey": "signout_text",
+    "settingValue": "Log out",
+    "readOnly": false
+  },
+  {
+    "settingId": 3245,
+    "settingGroup": "layout_text",
+    "settingTitle": "Hangbox Title",
+    "settingKey": "splash_header",
+    "settingValue": "+1 (844) 683-9122",
+    "readOnly": false
+  },
+  {
+    "settingId": 3246,
+    "settingGroup": "layout_text",
+    "settingTitle": "Hangbox line 1",
+    "settingKey": "splash_line_01",
+    "settingValue": "8AM - 6PM, Monday - Saturday",
+    "readOnly": false
+  },
+  {
+    "settingId": 3247,
+    "settingGroup": "layout_text",
+    "settingTitle": "Hangbox line 2",
+    "settingKey": "splash_line_02",
+    "settingValue": "",
+    "readOnly": false
+  },
+  {
+    "settingId": 3081,
+    "settingGroup": "localization",
+    "settingTitle": "Currency Code",
+    "settingKey": "currency_code",
+    "settingValue": "USD",
+    "readOnly": false
+  },
+  {
+    "settingId": 3008,
+    "settingGroup": "mail",
+    "settingTitle": "",
+    "settingKey": "Array",
+    "settingValue": "e5c39e643c5a86b0770ccf1c65de5eb086c5ba3e",
+    "readOnly": false
+  },
+  {
+    "settingId": 3006,
+    "settingGroup": "mail",
+    "settingTitle": "",
+    "settingKey": "action",
+    "settingValue": "settingform",
+    "readOnly": false
+  },
+  {
+    "settingId": 3005,
+    "settingGroup": "mail",
+    "settingTitle": "",
+    "settingKey": "controller",
+    "settingValue": "index",
+    "readOnly": false
+  },
+  {
+    "settingId": 3016,
+    "settingGroup": "mail",
+    "settingTitle": "",
+    "settingKey": "csrf",
+    "settingValue": "e5c39e643c5a86b0770ccf1c65de5eb086c5ba3e",
+    "readOnly": false
+  },
+  {
+    "settingId": 3004,
+    "settingGroup": "mail",
+    "settingTitle": "",
+    "settingKey": "module",
+    "settingValue": "company",
+    "readOnly": false
+  },
+  {
+    "settingId": 3009,
+    "settingGroup": "mail",
+    "settingTitle": "",
+    "settingKey": "smtp_host",
+    "settingValue": "email-smtp.us-west-2.amazonaws.com",
+    "readOnly": false
+  },
+  {
+    "settingId": 3011,
+    "settingGroup": "mail",
+    "settingTitle": "",
+    "settingKey": "smtp_password",
+    "settingValue": "Ahu78Tf6xYcLVQ9JczLc7wFe\/lHZ2vr+u+xgsy88mZwQ",
+    "readOnly": false
+  },
+  {
+    "settingId": 3013,
+    "settingGroup": "mail",
+    "settingTitle": "",
+    "settingKey": "smtp_port",
+    "settingValue": "465",
+    "readOnly": false
+  },
+  {
+    "settingId": 3015,
+    "settingGroup": "mail",
+    "settingTitle": "",
+    "settingKey": "smtp_sender_email",
+    "settingValue": "care@caria.com",
+    "readOnly": false
+  },
+  {
+    "settingId": 3014,
+    "settingGroup": "mail",
+    "settingTitle": "",
+    "settingKey": "smtp_sender_name",
+    "settingValue": "RemAssis",
+    "readOnly": false
+  },
+  {
+    "settingId": 3012,
+    "settingGroup": "mail",
+    "settingTitle": "",
+    "settingKey": "smtp_ssl_type",
+    "settingValue": "SSL",
+    "readOnly": false
+  },
+  {
+    "settingId": 3010,
+    "settingGroup": "mail",
+    "settingTitle": "",
+    "settingKey": "smtp_username",
+    "settingValue": "AKIAICVAHOJHHWTBSZJA",
+    "readOnly": false
+  },
+  {
+    "settingId": 3007,
+    "settingGroup": "mail",
+    "settingTitle": "",
+    "settingKey": "type",
+    "settingValue": "mail",
+    "readOnly": false
+  },
+  {
+    "settingId": 3152,
+    "settingGroup": "settings",
+    "settingTitle": "Instance Id",
+    "settingKey": "instance_id",
+    "settingValue": "demo",
+    "readOnly": false
+  },
+  {
+    "settingId": 3138,
+    "settingGroup": "styles",
+    "settingTitle": "Primary Active Button",
+    "settingKey": "button_active",
+    "settingValue": "background:#F28F15;color:#9DC247;font-family:'Open Sans', sans-serif;border-color:#F28F15;",
+    "readOnly": false
+  },
+  {
+    "settingId": 3137,
+    "settingGroup": "styles",
+    "settingTitle": "Primary Button (inactive)",
+    "settingKey": "button_class",
+    "settingValue": "background:#FFFFFF;color:#9DC247;",
+    "readOnly": false
+  },
+  {
+    "settingId": 3140,
+    "settingGroup": "styles",
+    "settingTitle": "Footer Styles",
+    "settingKey": "footer_class",
+    "settingValue": "background:#9E418F;color:#9DC247;font-family:'Open Sans', sans-serif;",
+    "readOnly": false
+  },
+  {
+    "settingId": 3139,
+    "settingGroup": "styles",
+    "settingTitle": "Hangbox Styles",
+    "settingKey": "hangbox_class",
+    "settingValue": "background:#9DC247;color:#9E418F;font-family:'Open Sans', sans-serif;",
+    "readOnly": false
+  },
+  {
+    "settingId": 3136,
+    "settingGroup": "styles",
+    "settingTitle": "Navigation Styles",
+    "settingKey": "nav_class",
+    "settingValue": "background:#54B9E5;",
+    "readOnly": false
+  },
+  {
+    "settingId": 3222,
+    "settingGroup": "styles",
+    "settingTitle": "Secondary Active Button",
+    "settingKey": "secondary_active",
+    "settingValue": "background:brown;color:yellow;font-family:'Open Sans', sans-serif;",
+    "readOnly": false
+  },
+  {
+    "settingId": 3221,
+    "settingGroup": "styles",
+    "settingTitle": "Secondary Button Hover Styles",
+    "settingKey": "secondary_hover",
+    "settingValue": "background:silver;color:green;",
+    "readOnly": false
+  },
+  {
+    "settingId": 3220,
+    "settingGroup": "styles",
+    "settingTitle": "Table Headers",
+    "settingKey": "table_headers",
+    "settingValue": "background:magenta;color:indigo;font-family:'Open Sans', sans-serif;",
+    "readOnly": false
+  },
+  {
+    "settingId": 3146,
+    "settingGroup": "virtual_provider",
+    "settingTitle": "Virtual Provider",
+    "settingKey": "robodoc",
+    "settingValue": "999",
+    "readOnly": false
+  }
+]
